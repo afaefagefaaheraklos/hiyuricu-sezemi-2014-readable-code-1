@@ -4,6 +4,9 @@
 import sys
 import string
 
-rf = open('omuraisu_recipe_data.txt').read()
+rf = open('omuraisu_recipe_data.txt', 'r')
 
-print rf
+id = 1
+for recipes in rf.readlines():
+	print (id,recipes)
+	id += 1
