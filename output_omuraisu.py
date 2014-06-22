@@ -10,7 +10,7 @@ recipe_with_id = {}
 
 id = 1
 for recipes in rf.readlines():
-	recipe_with_id['id'] = 'recipe' 
+	recipe_with_id['id'] = recipes
 	print (id,recipes)
 	id += 1
 
